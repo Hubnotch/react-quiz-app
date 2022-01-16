@@ -1,10 +1,15 @@
+import Button from "./components/Button.js"
 import './App.css';
 
 function App() {
   return (
-    <div className="App">
-      <h1>Quizzical App</h1>
-    </div>
+    <main>
+      <h1 className="title">Quizzical App</h1>
+      <p>This is an objective questions about sports</p>
+      <p>You'll love to play with it.</p>
+      <p>More coming soon...</p>
+      <Button />
+    </main>
   );
 }
 

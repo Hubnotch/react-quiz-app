@@ -1,4 +1,57 @@
-.App {
+* {
+  box-sizing: border-box;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+}
+
+body {
+  margin: 0;
+  background: #f5f7fb;
+  color: #293264;
+  height: 100vh;
+  padding: 40px 75px 25px;
+  background-image: url(./images/top-right-corner.png),
+    url(./images/bottom-left-corner.png);
+  background-repeat: no-repeat, no-repeat;
+  background-position: top right, left bottom;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
   text-align: center;
 }
 
+/* main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+} */
+
+.title {
+  margin: 10px;
+}
+
+button {
+  margin: 30px;
+  width: 193px;
+  background: #4d5b9e;
+  color: #f5f7fb;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 19px;
+  border-radius: 15px;
+  padding: 10px 30px;
+  border: none;
+  cursor: pointer;
+}
