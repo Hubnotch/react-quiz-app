@@ -22,6 +22,7 @@ body {
     url(./images/bottom-left-corner.png);
   background-repeat: no-repeat, no-repeat;
   background-position: top right, left bottom;
+  background-attachment: fixed;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -46,14 +47,40 @@ body {
   color: #293264;
 }
 
-button {
+.start-quiz {
   margin: 30px;
   width: 193px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
   background: #4d5b9e;
   color: #f5f7fb;
-  font-size: 16px;
+  font-size: 14.5px;
   border-radius: 15px;
   padding: 10px 30px;
   border: none;
   cursor: pointer;
+}
+
+.btn {
+  border: 1px solid #4d5b9e;
+  padding: 5px 20px;
+  margin: 5px;
+  border-radius: 10px;
+}
+
+.question {
+  text-align: center;
+  width: 100%;
+  max-width: 760px;
+  border-bottom: 1px solid rgba(128, 128, 128, 0.274);
+  margin: 20px 0;
+}
+.question--options {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  width: 100%;
+  margin: 10px 0;
 }

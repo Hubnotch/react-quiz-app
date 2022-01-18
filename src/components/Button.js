@@ -1,7 +1,7 @@
 import React from "react";
 
-function Button() {
-  return <button>Start Quiz</button>;
+function Button({startQuiz}) {
+  return <button>{startQuiz}</button>;
 }
 
 export default Button;
